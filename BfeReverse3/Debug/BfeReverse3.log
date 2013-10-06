@@ -1,0 +1,28 @@
+﻿Build started 10/6/2013 1:25:26 PM.
+     1>Project "d:\Code\BfeReverse3\BfeReverse3\BfeReverse3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\BfeReverse3.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BfeReverse3.cpp
+         BfeReverse3.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(182): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+                 d:\code\bfereverse3\bfereverse3\bfereverse3.cpp(24) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<__int64,__int64>(std::pair<__int64,__int64> &&,void **)' being compiled
+                 with
+                 [
+                     _Ty1=int,
+                     _Ty2=int
+                 ]
+                 d:\code\bfereverse3\bfereverse3\bfereverse3.cpp(24) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<__int64,__int64>(std::pair<__int64,__int64> &&,void **)' being compiled
+                 with
+                 [
+                     _Ty1=int,
+                     _Ty2=int
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\Code\BfeReverse3\Debug\BfeReverse3.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"d:\Code\BfeReverse3\Debug\BfeReverse3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\Code\BfeReverse3\Debug\BfeReverse3.lib" /MACHINE:X86 Debug\BfeReverse3.res
+         Debug\BfeReverse3.obj
+         Debug\stdafx.obj
+         BfeReverse3.vcxproj -> d:\Code\BfeReverse3\Debug\BfeReverse3.exe
+     1>Done Building Project "d:\Code\BfeReverse3\BfeReverse3\BfeReverse3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31
